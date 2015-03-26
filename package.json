@@ -1,0 +1,26 @@
+{
+  "name": "mysql-mock",
+  "version": "1.0.0",
+  "description": "Generate mock data into mysql.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinghul/mysql-mock.git"
+  },
+  "keywords": [
+    "mysql"
+  ],
+  "author": "Levi Lu <xinghu1989@gmail.com> (http://levi-lu.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinghul/mysql-mock/issues"
+  },
+  "homepage": "https://github.com/xinghul/mysql-mock",
+  "dependencies": {
+    "moment": "^2.9.0",
+    "mysql": "^2.6.0"
+  }
+}
