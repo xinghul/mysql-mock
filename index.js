@@ -3,6 +3,10 @@
 
     var mysql = require("mysql");
 
+    var args = require("./utils/argv")(process.argv);
+
+    console.log(args);
+
     var connection = mysql.createConnection({
         host     : "localhost",
         user     : "root",
@@ -15,7 +19,7 @@
         console.log(row);
         _callback();
     }
-    table.insert(10000, closeConnection);
+    // table.insert(10000, closeConnection);
 
     // pool.getConnection(function (err, connection) {
     //     if (err) {

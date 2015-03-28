@@ -40,4 +40,7 @@ rowRDD.collect().foreach(line => {
     ret ++= "\n"
 })
 
-scala.tools.nsc.io.File("result.csv").writeAll(ret)
+scala.tools.nsc.io.File("/Users/levilu/Downloads/result.csv").writeAll(ret)
+
+
+

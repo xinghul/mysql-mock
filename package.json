@@ -1,9 +1,10 @@
 {
   "name": "mysql-mock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate mock data into mysql.",
   "main": "index.js",
   "scripts": {
+    "run": "node index",
     "test": "npm test"
   },
   "repository": {
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/xinghul/mysql-mock",
   "dependencies": {
+    "commander": "^2.7.1",
     "moment": "^2.9.0",
     "mysql": "^2.6.0"
   }
