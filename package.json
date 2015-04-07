@@ -1,6 +1,6 @@
 {
   "name": "mysql-mock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate mock data into mysql.",
   "main": "index.js",
   "scripts": {
